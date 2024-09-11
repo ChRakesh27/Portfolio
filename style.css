@@ -19,21 +19,22 @@ body {
   background-image: url(images/bg.jpg);
   background-size: cover;
   background-position: center;
+  border: 1px solid black;
 }
 
 .container {
   padding: 0rem 5rem;
 }
 
-.logo img {
+/* .logo img {
   width: 15rem;
-}
+} */
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #0009;
 }
 
 nav ul li {
@@ -76,7 +77,6 @@ nav ul li a:hover::after {
 .highlighted-text {
   color: #ff004f;
   display: flex;
-
   cursor: pointer;
 }
 
@@ -349,9 +349,15 @@ nav .fas {
     font-size: 30px;
   }
 
+  nav {
+    display: flex;
+    justify-content: end;
+  }
+
   nav .fas {
     display: block;
     font-size: 25px;
+
   }
 
   nav ul {
