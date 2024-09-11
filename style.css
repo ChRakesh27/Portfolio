@@ -15,7 +15,7 @@ body {
 }
 
 #header {
-  height: 100vh;
+  height: 100svh;
   background-image: url(images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -338,7 +338,10 @@ nav .fas {
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/bg1.png);
-    border: 1px solid red;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
   }
 
   .header-body {
