@@ -335,9 +335,10 @@ nav .fas {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/bg1.png);
+    border: 1px solid red;
   }
 
   .header-body {
@@ -356,6 +357,7 @@ nav .fas {
   nav {
     display: flex;
     justify-content: end;
+    padding-right: 30px;
   }
 
   nav .fas {
