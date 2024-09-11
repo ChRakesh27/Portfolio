@@ -4,9 +4,11 @@
   font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background: #080808;
   color: #fff;
@@ -18,23 +20,28 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .container {
   padding: 0rem 5rem;
 }
+
 .logo img {
   width: 15rem;
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 nav ul li {
   display: inline-block;
   list-style: none;
   margin: 1rem 2rem;
 }
+
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -52,13 +59,16 @@ nav ul li a::after {
   bottom: -6px;
   transition: 0.5s;
 }
+
 nav ul li a:hover::after {
   width: 100%;
 }
+
 .header-text {
   margin-top: 20rem;
   font-size: 2rem;
 }
+
 .header-text h1 {
   font-size: 5rem;
 }
@@ -113,16 +123,20 @@ nav ul li a:hover::after {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 50rem;
+  height: 25rem;
+  margin-top: 40px;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .about-col-1 {
   flex-basis: 35%;
 }
+
 .about-col-1 img {
   width: 100%;
   height: 500px;
@@ -132,6 +146,7 @@ nav ul li a:hover::after {
 .about-col-2 {
   flex-basis: 60%;
 }
+
 .sub-title {
   font-size: 60px;
   color: #fff;
@@ -139,11 +154,13 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
 }
+
 .tab-titles {
   display: flex;
   margin: 20px 10px 40px 0;
   justify-content: center;
 }
+
 .tab-links {
   margin-left: 50px;
   font-size: 18px;
@@ -151,6 +168,7 @@ nav ul li a:hover::after {
   cursor: pointer;
   position: relative;
 }
+
 .tab-links::after {
   content: "";
   width: 0;
@@ -161,25 +179,31 @@ nav ul li a:hover::after {
   bottom: -8px;
   transition: 0.5s;
 }
+
 .tab-links:hover::after {
   width: 100%;
 }
+
 .tab-links.active-link::after {
   width: 50%;
 }
+
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
   font-size: 20px;
 }
+
 .tab-contents ul li span {
   color: #b5476b;
   font-size: 14px;
   font-size: 20px;
 }
+
 .tab-contents {
   display: none;
 }
+
 .tab-contents.active-tab {
   display: block;
 }
@@ -188,25 +212,29 @@ nav ul li a:hover::after {
 #myWork {
   padding: 50px, 0;
 }
+
 a {
   color: #fff;
   text-decoration-line: none;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 .work-list {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2rem;
   margin-top: 2rem;
 }
+
 .work {
   border-radius: 10px;
   /* width: 25rem; */
-  height: 35rem;
+  height: 25rem;
   position: relative;
   overflow: hidden;
 }
+
 .work img {
   width: 100%;
   height: 100%;
@@ -238,12 +266,15 @@ a {
   font-weight: 300;
   margin-bottom: 20px;
 }
+
 .work:hover img {
   transform: scale(1.1);
 }
+
 .work:hover .layer {
   height: 100%;
 }
+
 .btn {
   display: block;
   margin: 50px auto;
@@ -255,6 +286,7 @@ a {
   color: #fff;
   transition: background 0.5s;
 }
+
 .btn:hover {
   background: #ff004f;
 }
@@ -267,14 +299,17 @@ a {
 .contact-right {
   flex-basis: 60%;
 }
+
 .contact-left p {
   margin-top: 30px;
   font-size: 20px;
 }
+
 .btn.btn2 {
   display: inline-block;
   background: #ff004f;
 }
+
 form input,
 form textarea {
   width: 100%;
@@ -287,6 +322,7 @@ form textarea {
   font-size: 18px;
   border-radius: 6px;
 }
+
 form .btn2 {
   padding: 14px 60px;
   font-size: 18px;
@@ -308,13 +344,16 @@ nav .fas {
     margin-top: 100%;
     font-size: 16px;
   }
+
   .header-text h1 {
     font-size: 30px;
   }
+
   nav .fas {
     display: block;
     font-size: 25px;
   }
+
   nav ul {
     background: #ff004f;
     position: fixed;
@@ -326,37 +365,46 @@ nav .fas {
     z-index: 2;
     transition: right 0.5s;
   }
+
   nav ul li {
     display: block;
     margin: 25px;
   }
+
   nav ul .fas {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
+
   .sub-title {
     font-size: 40px;
   }
+
   .about-col-1,
   .about-col-2 {
     flex-basis: 100%;
   }
+
   .about-col-1 {
     margin-bottom: 30px;
   }
+
   .about-col-2 {
     font-size: 14px;
   }
+
   .tab-links {
     font-size: 16px;
     margin-right: 20px;
   }
+
   .contact-left,
   .contact-right {
     flex-basis: 100%;
   }
+
   .work-list {
     display: grid;
     grid-template-columns: auto auto;
