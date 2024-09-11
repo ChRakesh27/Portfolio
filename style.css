@@ -340,8 +340,12 @@ nav .fas {
     background-image: url(images/bg1.png);
   }
 
+  .header-body {
+    position: absolute;
+    bottom: 10px;
+  }
+
   .header-text {
-    margin-top: 100%;
     font-size: 16px;
   }
 
